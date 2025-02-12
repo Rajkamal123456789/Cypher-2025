@@ -105,8 +105,13 @@ elif st.session_state.page == 'app':
             if not message or not key:
                 st.error("Please fill both message and key fields!")
                 
-            elif key != '12345678':
-                st.warning("security key 🔐 invalid!")
+            elif key != '1234':
+                col1, col2 = st.columns([1,1])
+                with col1:
+                    st.warning("security key 🔐 invalid!")
+                with col2:
+                    st.info("security key is '1234'")
+                
                 
             else:
                 shift = process_key(key)
