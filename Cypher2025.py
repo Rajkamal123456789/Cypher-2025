@@ -57,7 +57,7 @@ if 'mode' not in st.session_state:
 
 if st.session_state.page == 'home':
     
-    st.markdown('<div class="floating-text">🔒 Cypher 2025</div>', unsafe_allow_html=True)
+    st.markdown('<div class="floating-text">🎭 ShadowCipher</div>', unsafe_allow_html=True)
     st.markdown("""
     ## Welcome to Cypher 2025!
     **Your Ultimate Message Security Solution**
@@ -75,7 +75,7 @@ if st.session_state.page == 'home':
 elif st.session_state.page == 'app':
     
     #st.title("🔐 Cypher 2025")
-    st.markdown('<div class="floating-text">🔐 Cypher 2025</div>', unsafe_allow_html=True)
+    st.markdown('<div class="floating-text">🎭 ShadowCipher</div>', unsafe_allow_html=True)
 
   
     col1, col2 = st.columns([1,1])
