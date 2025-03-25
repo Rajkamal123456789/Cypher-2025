@@ -88,7 +88,7 @@ elif st.session_state.page == 'app':
 
     
     if st.session_state.mode:
-        st.success(f" {st.session_state.mode.upper()} MODE ACTIVATED ")
+        st.success(f" {st.session_state.mode.upper()}MODE ACTIVATED")
     else:
         st.warning("Please select a mode above")
     
