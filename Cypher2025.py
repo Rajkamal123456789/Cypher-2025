@@ -1,7 +1,7 @@
 import streamlit as st
 import hashlib
 
-st.set_page_config(page_icon="hacker.png")
+st.set_page_config(page_icon="hacker.png",page_title="Secure Encryption & Decryption)
 
 st.markdown("""
 <style>
