@@ -103,7 +103,7 @@ elif st.session_state.page == 'app':
         if submitted:
             
             if not message or not key:
-                st.error("Please fill both message and key fields!")
+                st.error("Please select both message and files!")
                 
             elif key != '1234':
                 col1, col2 = st.columns([1,1])
